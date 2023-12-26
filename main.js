@@ -61,6 +61,7 @@ function App() {
   return (
     <>
       <h1>Codecamp Academy 01</h1>
+      <h1>Arttapon Uppamit</h1>
       <SumInfo color="blue" totalSum={totalSum} />
       <button onClick={handleAddCounter} className="add-counter-btn">Add Counter</button>
       {counters.map((count, index) => (
